@@ -1,6 +1,7 @@
 {
-  "name": "tamiz-admin",
-  "version": "0.1.0",
+  "name": "next-admin-dashboard",
+  "version": "0.0.1",
+  "author": "Carlos Aldaravi <carlosaldaravi@gmail.com> (https://carlosaldaravi.com)",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,18 +10,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.1.5",
+    "clsx": "^2.1.1",
+    "jose": "^5.8.0",
+    "next": "14.2.8",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.8"
+    "use-debounce": "10.0.3",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.8",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.8"
+    "typescript": "^5"
   }
 }

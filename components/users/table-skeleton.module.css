@@ -1,0 +1,16 @@
+/* Puedes usar animate-pulse de Tailwind o crear una clase custom si no usas Tailwind */
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.animatePulse {
+    animation: pulse 1.5s ease-in-out infinite;
+}
